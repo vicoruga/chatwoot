@@ -1,0 +1,24 @@
+<svg width="180" height="40" viewBox="0 0 180 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo para modo oscuro -->
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rectángulo de fondo claro para modo oscuro -->
+  <rect width="180" height="40" rx="8" fill="url(#grad2)"/>
+  
+  <!-- Icono -->
+  <circle cx="20" cy="20" r="8" fill="#2563eb" opacity="0.9"/>
+  <path d="M16 20 L20 24 L24 16" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Texto -->
+  <text x="35" y="16" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1e293b">
+    MiEmpresa
+  </text>
+  <text x="35" y="28" font-family="Arial, sans-serif" font-size="8" fill="#64748b">
+    Customer Support
+  </text>
+</svg>
