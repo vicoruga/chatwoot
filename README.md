@@ -138,3 +138,19 @@ Thanks goes to all these [wonderful people](https://www.chatwoot.com/docs/contri
 
 
 *Chatwoot* &copy; 2017-2025, Chatwoot Inc - Released under the MIT License.
+
+---
+
+## 📚 Documentación Interna del Fork
+
+Este fork incluye documentación adicional para el desarrollo y mantenimiento:
+
+- **[Documentación del Proyecto](docs/README.md)** - Índice completo de guías internas
+- **[Guía de Gestión de Fork](docs/development/fork-management-guide.md)** - Mejores prácticas para mantener sincronizado con upstream
+- **[Configuración de Desarrollo](docs/development/)** - Guías de setup y troubleshooting
+
+### Estructura de Ramas Personalizada
+
+- `develop` - Rama limpia sincronizada con upstream
+- `custom/main` - Nuestras personalizaciones principales
+- `custom/feature-*` - Características específicas en desarrollo
