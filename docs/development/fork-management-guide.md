@@ -115,16 +115,16 @@ Descripción más detallada si es necesaria.
 
 ### Ejemplos
 ```bash
-git commit -m "fix(migration): comment problematic ActsAsTaggableOn line
+git commit -m "fix(migración): comentar línea problemática de ActsAsTaggableOn
 
-- Resolve version compatibility issue in add_cached_labels_list migration
-- Allows migrations to run without errors during development setup"
+- Resolver problema de compatibilidad de versión en migración add_cached_labels_list
+- Permite que las migraciones se ejecuten sin errores durante configuración de desarrollo"
 
-git commit -m "feat(config): add development environment configuration
+git commit -m "feat(config): agregar configuración de entorno de desarrollo
 
-- Configure PostgreSQL connection for local development
-- Enable account signup for testing
-- Set proper frontend URL configuration"
+- Configurar conexión PostgreSQL para desarrollo local
+- Habilitar registro de cuentas para testing
+- Configurar URL del frontend correctamente"
 ```
 
 ## Resolución de Conflictos
